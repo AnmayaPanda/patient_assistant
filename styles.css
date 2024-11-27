@@ -1,0 +1,65 @@
+/* Sidebar Styles */
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-y: auto;
+    background-color: #19006c;
+}
+
+.main-content {
+    margin-left: 250px;
+    padding: 0px;
+    text-align: center;
+    background-image: url("main_background.png");
+    background: linear-gradient(135deg, #00ccffe4, #fbff00); /* Blue to Green */
+    color: #000000;
+}
+
+/* Section Styling */
+h2 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+p{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #333;
+    font-size: 30px;
+    
+}
+
+img {
+    max-width: 100%;
+    margin-top: 0px;
+    align-self: center;
+    word-wrap: normal;
+}
+
+ul {
+    font-size: 1.1rem;
+}
+
+/* Home Section Background */
+/* Home Section Background */
+#home {
+    background: url('banner1.jpg') no-repeat right center; /* Align image on the right */
+    background-size: cover; /* Cover the entire section */
+    background-attachment: fixed; /* Optional: Adds a parallax effect */
+    background-color: #f8f9fa; /* Fallback background color */
+    height: 100vh; /* Set section height to fill the viewport */
+    display: flex; /* Align content vertically */
+    align-items: center; /* Center content vertically */
+    text-align: left; /* Align text to the left */
+    padding: 20px;
+}
+
+#home h1, #home h4 {
+    color: rgb(0, 0, 0); /* Adjust text color for visibility */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add shadow for better readability */
+    margin: 0;
+}
